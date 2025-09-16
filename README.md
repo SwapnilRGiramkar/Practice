@@ -1,2 +1,2 @@
 # Practice
-All Prsctice java Code is Saved here 
+All Practice java Code is Saved here 
