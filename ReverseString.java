@@ -1,25 +1,22 @@
-//Reverse String 
-package strings;
-import java.util.Scanner;
+//This is the Example of Reverse String
+package arrayPrograms;
+
 public class ReverseString 
 {
-	public static void main (String []args)
+	public static void main(String[] args) 
 	{
-		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the String ");
-		String s=sc.next();
-		sc.close();
-		reversed(s);
+		String s="Swapnil Giramkar";
+		String ans=reverse(s);
+		System.out.println(ans);
 	}
-	public static void reversed(String s)
+	public static String reverse(String s)
 	{
-		String rev="";
+		String ans="";
 		for(int i=s.length()-1;i>=0;i--)
 		{
-			rev+=s.charAt(i);
+			ans=ans+s.charAt(i);
 		}
-		System.out.println(s);
-		System.out.println(rev);
+		return ans;
 	}
 }
 
